@@ -34,11 +34,19 @@ namespace ProgrammingAssignment2
 				// course add more space between the
 				// comments as needed
 
+				int value = 0;
+				value = GetValue();
 
 
-				// Don't add or modify any code below
-				// this comment
-				input = Console.ReadLine();
+                while(value != -1)
+                {
+                Console.WriteLine(value);
+					value = GetValue();
+                }
+
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
 			}
 		}
 

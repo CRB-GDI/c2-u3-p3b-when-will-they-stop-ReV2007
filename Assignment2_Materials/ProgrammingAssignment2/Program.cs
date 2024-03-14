@@ -36,12 +36,15 @@ namespace ProgrammingAssignment2
 
 				int value = 0;
 				value = GetValue();
-
+				int count = 0;
+				int sum =	0;
 
                 while(value != -1)
                 {
+					
                 Console.WriteLine(value);
 					value = GetValue();
+					count++;
                 }
 
                 // Don't add or modify any code below

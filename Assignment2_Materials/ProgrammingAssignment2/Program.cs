@@ -42,11 +42,15 @@ namespace ProgrammingAssignment2
                 while(value != -1)
                 {
 					
-                Console.WriteLine(value);
-					value = GetValue();
+                sum = (sum + value);
+                    value = GetValue();
 					count++;
+					
                 }
-
+				Console.Write(count);
+				Console.Write(" ");
+				Console.Write((float)sum / (float)count);
+				Console.WriteLine();
                 // Don't add or modify any code below
                 // this comment
                 input = Console.ReadLine();
